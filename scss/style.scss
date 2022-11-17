@@ -1,0 +1,25 @@
+@import "variables";
+@import "mixines";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: $ligthBrown;
+    height: 15vh;
+    @include text-color;
+}
+
+main{
+    background-color: $darkBrown;
+    height: 70vh;
+    @include text-color;
+}
+
+footer{
+    background-color: $ligthBrown;
+    height: 15vh;
+    @include text-color;;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "pruebas-js",
+  "version": "1.1.0",
+  "description": "parctica de JS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Felipe_Mtz",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
