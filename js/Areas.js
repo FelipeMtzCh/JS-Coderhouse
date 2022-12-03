@@ -1,5 +1,5 @@
 do{
-  let select = parseInt(
+  let select= parseInt(
     prompt(
       "Ingrese el area que desea hallar, 1. cuadrado/ 2. rectangulo/ 3. Circulo"
     )

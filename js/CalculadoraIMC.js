@@ -4,7 +4,7 @@ let peso = parseFloat(prompt("Ingrese su peso en Kg"));
 let altura = parseFloat(prompt("ingrese su altura en m"));
 let IMC = peso / (altura * altura);
 
-alert("Tu IMC es " + IMC.toFixed(2));
+alert("Tu IMC es " + IMC.toFixed(1));
 
 /*
 IMC	                Nivel de peso
