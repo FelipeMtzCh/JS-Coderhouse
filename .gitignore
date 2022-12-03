@@ -1,3 +1,12 @@
 node_modules/*
 Notas.txt
 desktop.ini
+assets/*
+js/Ciclos.js
+js/Condicionales.js
+js/Clases.js
+js/Funciones.js
+js/Obj.js
+package-lock.json
+package.json
+pages/*

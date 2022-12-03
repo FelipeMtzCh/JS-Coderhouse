@@ -13,16 +13,16 @@ header {
   background-color: #BF8F73;
   height: 15vh; }
   header .texto {
-    color: gray; }
+    color: #fff; }
 
 main {
   background-color: #8C5954;
   height: 70vh; }
   main .texto {
-    color: gray; }
+    color: #fff; }
 
 footer {
   background-color: #BF8F73;
   height: 15vh; }
   footer .texto {
-    color: gray; }
+    color: #fff; }
