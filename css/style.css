@@ -1,28 +1,55 @@
-/*Colors*/
-/*Fonts*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
-/*Colors*/
-/*Fonts*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-header {
-  background-color: #BF8F73;
-  height: 15vh; }
-  header .texto {
-    color: #fff; }
-
-main {
-  background-color: #8C5954;
-  height: 70vh; }
-  main .texto {
-    color: #fff; }
-
-footer {
-  background-color: #BF8F73;
-  height: 15vh; }
-  footer .texto {
-    color: #fff; }
+body {
+  background-color: #D0D8D9;
+  height: 100vh;
+  width: 100%;
+  display: flex; }
+  body .inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+    font-family: 'Nunito', sans-serif; }
+    body .inputs #name, body .inputs #ID, body .inputs #price {
+      flex-direction: column;
+      margin: 10px;
+      height: 32px;
+      width: 350px;
+      padding: 12px;
+      border-radius: 5px;
+      border: 2px solid transparent; }
+  body .buttons {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    body .buttons .btnCreate {
+      background-color: #363F40;
+      height: 50px;
+      width: 150px;
+      border: none;
+      border-radius: 30px;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      letter-spacing: 2px;
+      color: #D0D8D9;
+      transition: all .375s;
+      flex-direction: row;
+      margin: 5px;
+      padding: 10px; }
+    body .buttons .btnCreate:hover {
+      letter-spacing: 3px;
+      width: 200px;
+      color: #F2F2F2;
+      background-color: green; }
